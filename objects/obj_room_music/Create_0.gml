@@ -1,0 +1,1 @@
+music = audio_play_sound(play_music,1,1);
