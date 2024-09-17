@@ -50,7 +50,8 @@ function ControlsButton(){
 
 function CreditsButton(){
 	MenuClear();
-	instance_create_layer(180,162,"Instances",obj_text,{text: "Programming and Art by Gibby S\nFont \"m5x7\" by Daniel Linssen\nSound Effects from Pixabay\nMusic by Gaston A-P from Pixabay"});
+	instance_create_layer(180,162,"Instances",obj_text,{text: "Programming and Art by Gibby S\nFont \"m5x7\" by Daniel Linssen\nSound Effects by Pixabay\nMusic by Gaston A-P from Pixabay"});
+	music = instance_create_layer(160,208,"Instances",obj_button,{text: " ",script_to: url_open,script_arg: ["https://pixabay.com/users/xtremefreddy-32332307/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=145362"],image_xscale:4,image_yscale:1,image_alpha:0});
 	instance_create_layer(176,272,"Instances",obj_button,{text: "Main Menu",script_to: MenuRespawn,script_arg: [-1],image_xscale:7,image_yscale:2});
 }
 
