@@ -1,6 +1,6 @@
 {
   "$GMProject":"",
-  "%Name":"Assignment1_Start_Sheldon",
+  "%Name":"Hue_Shift",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
@@ -41,7 +41,7 @@
   "MetaData":{
     "IDEVersion":"2024.8.1.171",
   },
-  "name":"Assignment1_Start_Sheldon",
+  "name":"Hue_Shift",
   "resources":[
     {"id":{"name":"fnt_font_size_24","path":"fonts/fnt_font_size_24/fnt_font_size_24.yy",},},
     {"id":{"name":"fnt_font_size_36","path":"fonts/fnt_font_size_36/fnt_font_size_36.yy",},},
